@@ -40,15 +40,18 @@ Script description:
 The run_analysis.R script combines training and test data from "UCI HAR Dataset" dataset and creates two tidy datasets.
 
 - First it reads all the training and test data from "UCI HAR Dataset' directory.
+	
 	* Training Data:
-        * 'train/X_train.txt': Training set.
-	* 'train/y_train.txt': Training labels.
-	* 'train/subject_train.txt': ID's of subjects in the training data
+        
+	** 'train/X_train.txt': Training set.
+	** 'train/y_train.txt': Training labels.
+	** 'train/subject_train.txt': ID's of subjects in the training data
 	
 	* Test Data:
-	* 'test/X_test.txt': Test set.
-	* 'test/y_test.txt': Test labels.
-	* 'test/subject_test.txt': ID's of subjects in the training data
+	
+	** 'test/X_test.txt': Test set.
+	** 'test/y_test.txt': Test labels.
+	** 'test/subject_test.txt': ID's of subjects in the training data
 
 - Merges training and test data using rbind.
 
