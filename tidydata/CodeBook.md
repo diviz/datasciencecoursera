@@ -10,15 +10,15 @@ The features that are selected for this tidy dataset are originated from the dat
 Feature Variables:
 ==================
 
-mean : mean values of multiple measurements of the original variables. Type: Real number
+- mean : mean values of multiple measurements of the original variables. Type: Real number
 
-std: Standard deviation of multiple measurements of the original variables. Type: Real number
+- std: Standard deviation of multiple measurements of the original variables. Type: Real number
 
-activityid: Identifier, identifying the activity of each subject Type: Integer Values: 1 : 6
+- activityid: Identifier, identifying the activity of each subject Type: Integer Values: 1 : 6
 
-activityname: Descriptive name of each subject's activity Type: Factor Values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+- activityname: Descriptive name of each subject's activity Type: Factor Values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-subjectid : Identifier, identifying each subject Type: Integer Values: 1 : 30
+- subjectid : Identifier, identifying each subject Type: Integer Values: 1 : 30
 
 
 Feature Mappings:
