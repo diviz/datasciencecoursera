@@ -36,10 +36,11 @@ data <- allData[grep("subjectid|*-mean\\(\\)*|*-std\\(\\)*|activityid", names(al
 ## merging activity_names with data
 tidy_data_one <- merge(activities, data)
 
-## descriptive feature names (all lower case, no underscores and parantheses, use dot(.) instead of hyphen(-))
+## descriptive feature names (all lower case, remove underscores, parantheses and hyphens)
 featureLabels <- tolower(names(tidy_data_one))
 featureLabels <- gsub("\\()", "", featureLabels)
-featureLabels <- gsub("-", ".", featureLabels)
+featureLabels <- gsub("-", "", featureLabels)
+featureLabels <- gsub("_", "", featureLabels)
 
 ## adding descriptive feature names to the tidy dataset
 names(tidy_data_one) <- c(featureLabels)
@@ -52,7 +53,7 @@ tidy_data_two <- t(sapply(groupdata, colMeans))
 tidy_data_two <- merge(activities, tidy_data_two)
 
 ## adding descriptive feature names to the tidy dataset
-names(tidy_data_two) <- c(featureLabels)
+names(tidy_data_two) <- c("activityid", "activityname", "subjectid", paste("average",featureLabels[4:length(featureLabels)], sep=""))
 
 #writing tidy data to files
 write.csv(tidy_data_one, file="tidydata1.txt")
