@@ -7,6 +7,45 @@ Feature Selection
 
 The features that are selected for this tidy dataset are originated from the data in the "Human Activity Recognition Using Smartphones Dataset Version 1.0". More information regarding this dataset can be found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
  
+Feature Variables:
+==================
+
+mean : mean values of multiple measurements of the original variables. Type: Real number
+
+std: Standard deviation of multiple measurements of the original variables. Type: Real number
+
+activityid: Identifier, identifying the activity of each subject Type: Integer Values: 1 : 6
+
+activityname: Descriptive name of each subject's activity Type: Factor Values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
+subjectid : Identifier, identifying each subject Type: Integer Values: 1 : 30
+
+
+Feature Mappings:
+=================
+
+- Original Feature Name -> Feature Name in Tidy Dataset
+- tBodyAcc-XYZ 		-> tbodyaccxyz
+- tGravityAcc-XYZ	-> tgravityaccxyz
+- tBodyAccJerk-XYZ	-> tbodyaccjerkxyz
+- tBodyGyro-XYZ		-> tbodygyroaccjerkxyz	
+- tBodyGyroJerk-XYZ	-> tbodygyrojerkxyz
+- tBodyAccMag		-> tbodyaccmag
+- tGravityAccMag	-> tgravityaccmag
+- tBodyAccJerkMag	-> tbodyaccjerkmag
+- tBodyGyroMag		-> tbodygyromag
+- tBodyGyroJerkMag	-> tbodygyrojerkmag
+- fBodyAcc-XYZ		-> fbodyaccxyz
+- fBodyAccJerk-XYZ	-> fbodyaccjerkxyz
+- fBodyGyro-XYZ		-> fbodygyroxyz
+- fBodyAccMag		-> fbodyaccmag
+- fBodyAccJerkMag	-> fbodyaccjerkmag
+- fBodyGyroMag		-> fvodygyromag
+- fBodyGyroJerkMag	-> fbodygyrojerkmag
+
+
+Tidy Dataset Features:
+=====================
 
 tidydata1.txt - has the following features.
 
@@ -81,7 +120,7 @@ tidydata1.txt - has the following features.
 -	fbodybodygyrojerkmagstd
 
 
-tidydata2.txt - has the following features:
+tidydata2.txt - has the following features (they are averages of the features in the tidydata1.txt grouped by activityid and subjectid):
 
 -	activityid
 -	activityname
