@@ -10,75 +10,75 @@ The features that are selected for this tidy dataset are originated from the dat
 
 tidydata1.txt - has the following features.
 
-- activityid
-- activityname
-- subjectid
-- tbodyaccmeanx
-- tbodyaccmeany
-- tbodyaccmeanz
-- tbodyaccstdx
-- tbodyaccstdy
-- tbodyaccstdz
-- tgravityaccmeanx
-- tgravityaccmeany
-- tgravityaccmeanz
-- tgravityaccstdx
-- tgravityaccstdy
-- tgravityaccstdz
-- tbodyaccjerkmeanx
-- tbodyaccjerkmeany
-- tbodyaccjerkmeanz
-- tbodyaccjerkstdx
-- tbodyaccjerkstdy
-- tbodyaccjerkstdz
-- tbodygyromeanx
-- tbodygyromeany
-- tbodygyromeanz
-- tbodygyrostdx
-- tbodygyrostdy
-- tbodygyrostdz
-- tbodygyrojerkmeanx
-- tbodygyrojerkmeany
-tbodygyrojerkmeanz
-tbodygyrojerkstdx
-tbodygyrojerkstdy
-tbodygyrojerkstdz
-tbodyaccmagmean
-tbodyaccmagstd
-tgravityaccmagmean
-tgravityaccmagstd
-tbodyaccjerkmagmean
-tbodyaccjerkmagstd
-tbodygyromagmean
-tbodygyromagstd
-tbodygyrojerkmagmean
-tbodygyrojerkmagstd
-fbodyaccmeanx
-fbodyaccmeany
-fbodyaccmeanz
-fbodyaccstdx
-fbodyaccstdy
-fbodyaccstdz
-fbodyaccjerkmeanx
-fbodyaccjerkmeany
-fbodyaccjerkmeanz
-fbodyaccjerkstdx
-fbodyaccjerkstdy
-fbodyaccjerkstdz
-fbodygyromeanx
-fbodygyromeany
-fbodygyromeanz
-fbodygyrostdx
-fbodygyrostdy
-fbodygyrostdz
-fbodyaccmagmean
-fbodyaccmagstd
-fbodybodyaccjerkmagmean
-fbodybodyaccjerkmagstd
-fbodybodygyromagmean
-fbodybodygyromagstd
-fbodybodygyrojerkmagmean
-fbodybodygyrojerkmagstd
+-	activityid
+-	activityname
+-	subjectid
+-	tbodyaccmeanx
+-	tbodyaccmeany
+-	tbodyaccmeanz
+-	tbodyaccstdx
+-	tbodyaccstdy
+-	tbodyaccstdz
+-	tgravityaccmeanx
+-	tgravityaccmeany
+-	tgravityaccmeanz
+-	tgravityaccstdx
+-	tgravityaccstdy
+-	tgravityaccstdz
+-	tbodyaccjerkmeanx
+-	tbodyaccjerkmeany
+-	tbodyaccjerkmeanz
+-	tbodyaccjerkstdx
+-	tbodyaccjerkstdy
+-	tbodyaccjerkstdz
+-	tbodygyromeanx
+-	tbodygyromeany
+-	tbodygyromeanz
+-	tbodygyrostdx
+-	tbodygyrostdy
+-	tbodygyrostdz
+-	tbodygyrojerkmeanx
+-	tbodygyrojerkmeany
+-	tbodygyrojerkmeanz
+-	tbodygyrojerkstdx
+-	tbodygyrojerkstdy
+-	tbodygyrojerkstdz
+-	tbodyaccmagmean
+-	tbodyaccmagstd
+-	tgravityaccmagmean
+-	tgravityaccmagstd
+-	tbodyaccjerkmagmean
+-	tbodyaccjerkmagstd
+-	tbodygyromagmean
+-	tbodygyromagstd
+-	tbodygyrojerkmagmean
+-	tbodygyrojerkmagstd
+-	fbodyaccmeanx
+-	fbodyaccmeany
+-	fbodyaccmeanz
+-	fbodyaccstdx
+-	fbodyaccstdy
+-	fbodyaccstdz
+-	fbodyaccjerkmeanx
+-	fbodyaccjerkmeany
+-	fbodyaccjerkmeanz
+-	fbodyaccjerkstdx
+-	fbodyaccjerkstdy
+-	fbodyaccjerkstdz
+-	fbodygyromeanx
+-	fbodygyromeany
+-	fbodygyromeanz
+-	fbodygyrostdx
+-	fbodygyrostdy
+-	fbodygyrostdz
+-	fbodyaccmagmean
+-	fbodyaccmagstd
+-	fbodybodyaccjerkmagmean
+-	fbodybodyaccjerkmagstd
+-	fbodybodygyromagmean
+-	fbodybodygyromagstd
+-	fbodybodygyrojerkmagmean
+-	fbodybodygyrojerkmagstd
 
 
 tidydata2.txt - has the following features:
