@@ -10,35 +10,35 @@ The features that are selected for this tidy dataset are originated from the dat
 
 tidydata1.txt - has the following features.
 
-activityid
-activityname
-subjectid
-tbodyaccmeanx
-tbodyaccmeany
-tbodyaccmeanz
-tbodyaccstdx
-tbodyaccstdy
-tbodyaccstdz
-tgravityaccmeanx
-tgravityaccmeany
-tgravityaccmeanz
-tgravityaccstdx
-tgravityaccstdy
-tgravityaccstdz
-tbodyaccjerkmeanx
-tbodyaccjerkmeany
-tbodyaccjerkmeanz
-tbodyaccjerkstdx
-tbodyaccjerkstdy
-tbodyaccjerkstdz
-tbodygyromeanx
-tbodygyromeany
-tbodygyromeanz
-tbodygyrostdx
-tbodygyrostdy
-tbodygyrostdz
-tbodygyrojerkmeanx
-tbodygyrojerkmeany
+- activityid
+- activityname
+- subjectid
+- tbodyaccmeanx
+- tbodyaccmeany
+- tbodyaccmeanz
+- tbodyaccstdx
+- tbodyaccstdy
+- tbodyaccstdz
+- tgravityaccmeanx
+- tgravityaccmeany
+- tgravityaccmeanz
+- tgravityaccstdx
+- tgravityaccstdy
+- tgravityaccstdz
+- tbodyaccjerkmeanx
+- tbodyaccjerkmeany
+- tbodyaccjerkmeanz
+- tbodyaccjerkstdx
+- tbodyaccjerkstdy
+- tbodyaccjerkstdz
+- tbodygyromeanx
+- tbodygyromeany
+- tbodygyromeanz
+- tbodygyrostdx
+- tbodygyrostdy
+- tbodygyrostdz
+- tbodygyrojerkmeanx
+- tbodygyrojerkmeany
 tbodygyrojerkmeanz
 tbodygyrojerkstdx
 tbodygyrojerkstdy
@@ -83,73 +83,72 @@ fbodybodygyrojerkmagstd
 
 tidydata2.txt - has the following features:
 
-
-ctivityid
-activityname
-subjectid
-averagetbodyaccmeanx
-averagetbodyaccmeany
-averagetbodyaccmeanz
-averagetbodyaccstdx
-averagetbodyaccstdy
-averagetbodyaccstdz
-averagetgravityaccmeanx
-averagetgravityaccmeany
-averagetgravityaccmeanz
-averagetgravityaccstdx
-averagetgravityaccstdy
-averagetgravityaccstdz
-averagetbodyaccjerkmeanx
-averagetbodyaccjerkmeany
-averagetbodyaccjerkmeanz
-averagetbodyaccjerkstdx
-averagetbodyaccjerkstdy
-averagetbodyaccjerkstdz
-averagetbodygyromeanx
-averagetbodygyromeany
-averagetbodygyromeanz
-averagetbodygyrostdx
-averagetbodygyrostdy
-averagetbodygyrostdz
-averagetbodygyrojerkmeanx
-averagetbodygyrojerkmeany
-averagetbodygyrojerkmeanz
-averagetbodygyrojerkstdx
-averagetbodygyrojerkstdy
-averagetbodygyrojerkstdz
-averagetbodyaccmagmean
-averagetbodyaccmagstd
-averagetgravityaccmagmean
-averagetgravityaccmagstd
-averagetbodyaccjerkmagmean
-averagetbodyaccjerkmagstd
-averagetbodygyromagmean
-averagetbodygyromagstd
-averagetbodygyrojerkmagmean
-averagetbodygyrojerkmagstd
-averagefbodyaccmeanx
-averagefbodyaccmeany
-averagefbodyaccmeanz
-averagefbodyaccstdx
-averagefbodyaccstdy
-averagefbodyaccstdz
-averagefbodyaccjerkmeanx
-averagefbodyaccjerkmeany
-averagefbodyaccjerkmeanz
-averagefbodyaccjerkstdx
-averagefbodyaccjerkstdy
-averagefbodyaccjerkstdz
-averagefbodygyromeanx
-averagefbodygyromeany
-averagefbodygyromeanz
-averagefbodygyrostdx
-averagefbodygyrostdy
-averagefbodygyrostdz
-averagefbodyaccmagmean
-averagefbodyaccmagstd
-averagefbodybodyaccjerkmagmean
-averagefbodybodyaccjerkmagstd
-averagefbodybodygyromagmean
-averagefbodybodygyromagstd
-averagefbodybodygyrojerkmagmean
-averagefbodybodygyrojerkmagstd
+-	activityid
+-	activityname
+-	subjectid
+-	averagetbodyaccmeanx
+-	averagetbodyaccmeany
+-	averagetbodyaccmeanz
+-	averagetbodyaccstdx
+-	averagetbodyaccstdy
+-	averagetbodyaccstdz
+-	averagetgravityaccmeanx
+-	averagetgravityaccmeany
+-	averagetgravityaccmeanz
+-	averagetgravityaccstdx
+-	averagetgravityaccstdy
+-	averagetgravityaccstdz
+-	averagetbodyaccjerkmeanx
+-	averagetbodyaccjerkmeany
+-	averagetbodyaccjerkmeanz
+-	averagetbodyaccjerkstdx
+-	averagetbodyaccjerkstdy
+-	averagetbodyaccjerkstdz
+-	averagetbodygyromeanx
+-	averagetbodygyromeany
+-	averagetbodygyromeanz
+-	averagetbodygyrostdx
+-	averagetbodygyrostdy
+-	averagetbodygyrostdz
+-	averagetbodygyrojerkmeanx
+-	averagetbodygyrojerkmeany
+-	averagetbodygyrojerkmeanz
+-	averagetbodygyrojerkstdx
+-	averagetbodygyrojerkstdy
+-	averagetbodygyrojerkstdz
+-	averagetbodyaccmagmean
+-	averagetbodyaccmagstd
+-	averagetgravityaccmagmean
+-	averagetgravityaccmagstd
+-	averagetbodyaccjerkmagmean
+-	averagetbodyaccjerkmagstd
+-	averagetbodygyromagmean
+-	averagetbodygyromagstd
+-	averagetbodygyrojerkmagmean
+-	averagetbodygyrojerkmagstd
+-	averagefbodyaccmeanx
+-	averagefbodyaccmeany
+-	averagefbodyaccmeanz
+-	averagefbodyaccstdx
+-	averagefbodyaccstdy
+-	averagefbodyaccstdz
+-	averagefbodyaccjerkmeanx
+-	averagefbodyaccjerkmeany
+-	averagefbodyaccjerkmeanz
+-	averagefbodyaccjerkstdx
+-	averagefbodyaccjerkstdy
+-	averagefbodyaccjerkstdz
+-	averagefbodygyromeanx
+-	averagefbodygyromeany
+-	averagefbodygyromeanz
+-	averagefbodygyrostdx
+-	averagefbodygyrostdy
+-	averagefbodygyrostdz
+-	averagefbodyaccmagmean
+-	averagefbodyaccmagstd
+-	averagefbodybodyaccjerkmagmean
+-	averagefbodybodyaccjerkmagstd
+-	averagefbodybodygyromagmean
+-	averagefbodybodygyromagstd
+-	averagefbodybodygyrojerkmagmean
+-	averagefbodybodygyrojerkmagstd
